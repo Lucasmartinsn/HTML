@@ -1,0 +1,331 @@
+Header{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content:space-around
+}
+body{
+    background: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+nav a{
+    margin-right: 2rem;
+    color: black;
+    text-decoration: none;
+}
+nav input{
+    background-color: red;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius:50px;
+    border:none;
+    color: white
+    
+}
+#um  img{
+    display: flex;
+    position:relative;
+    left: 521px;
+    top: 169.5px;
+}
+#dois{
+    text-align:left 50px;
+    
+}
+#dois h1{
+    left: 800px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 78px;
+    color: #2E2E2E;
+    text-align: left 40px;   
+}
+#dois p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+}
+#dois div{
+    margin-top: 2rem;
+    position: relative;
+    left: 10px;
+    border-radius:50px;
+    border:none;
+}
+#dois #div2 input{
+    margin-top: 2rem;
+    background-color: red;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius:50px;
+    border:none;
+    color: white;
+    margin: 0 1rem;
+}
+#s2 h1{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+    margin-top: 6rem;
+    
+}
+.ramadois h1{
+    margin-top: 10rem;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+}
+.ramadois p{
+    margin-top: 1rem;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center  
+}
+.ramadois .bo h2{
+    margin-top: 1rem;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;    
+    color: #F54748;
+}
+.ramadois .bo{
+    display: flex;
+    flex-direction: row;
+    color:#000000;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 5px;
+}
+.ramadois .bo input{
+    margin-top: 2rem;
+    background-color: rgb(238, 85, 85);
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius:50px;
+    border:none;
+    color: white
+}
+#s3 img{
+    display: flex;
+    position: relative;
+    left: 1rem;
+    float: left;
+}
+#s3 #titu h1{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 129.9%;  
+    color: #000000;  
+    margin-top:15rem;
+    text-align: center
+}
+#s3 #titu p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px; 
+    margin-top:1rem;
+    text-align: center;
+}
+#s3 #subt h3{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    display:flex;
+    position: relative;
+    float:center;
+    align-items: center;   
+}
+#s3 #subt input{
+    margin-top: 2rem;
+    margin-bottom:20rem;
+    background-color: rgb(241, 160, 160);
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius:50px;
+    border:none;
+    color: white;
+    align-items: center;
+    justify-content:center;
+}
+#s4 h1{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+    text-transform: capitalize; 
+}
+#s4 .menu input {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    background-color: rgb(238, 85, 85);
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius:50px;
+    border:none;
+    color: white;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content:center;
+}
+.menu input {
+    margin: 0 1rem;
+    padding: 5px 15px;
+}
+
+#s4 #s4div1{
+    display: flex;
+    flex-direction: row;
+    color:#000000;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+#s4 #s4div2{
+    display: flex;
+    flex-direction: row;
+    color:#000000;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+#s4 #s4div2 h2{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    color:red;
+} 
+#s4 #s4div2 p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+}
+#s4 #s4div1 input{
+    background-color: red;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius:50px;
+    border:none;
+    color: white 
+}
+#s4 #s4div2 input{
+    background-color: red;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius:50px;
+    border:none;
+    color: white 
+}
+#s5 #imagem img{
+    margin-top: 3rem;
+    display: flex;
+    position:relative;
+    left: 521px;
+}
+#s5  #text h1{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+}
+#s5 #text p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+#s5 div li img{
+    display:flex;
+    position:relative;
+    margin-bottom: 45rem;
+    margin-top:2rem;
+}
+footer{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color:#000000;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+footer h1{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    color:red;
+}
