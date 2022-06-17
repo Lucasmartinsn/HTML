@@ -74,27 +74,22 @@ header{
  .lol{
     background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
     border-radius: 20px;
-    padding: 4rem;
+    padding: 20px;
  }
  .ta .quatro h2{
      font-family: sans-serif;
      color: red;
      font-weight: 700px;
  }
- .mobile{
-    display: flex;
- }
- .ta .quatro{
+ .quatro {
      display: flex;
-     flex-direction: row;
      color:#000000;
      width: 80%;
      text-align: center;
      margin-bottom: 2rem;
      margin-top: 3rem;
-     padding: 4rem;
+     flex-wrap: wrap;
  }
-
  .te #a img{
      display: flex;
      position: static;
@@ -108,26 +103,14 @@ header{
      margin-bottom: 3rem;
      text-align: center;
  }
- .te #b{
-    text-align: center;
+ .te .chef{
     display: flex;
-    position: relative;
-    justify-content: center;
-    border-bottom: 1px solid;
-    width: 500px;
-    height: 500px;
- }
- .te #c{
-    text-align: center;
-    display: flex;
-    position: relative;
-    right:10%;
+    width:20%;
  }
  .te #a input{
      margin-top: 2rem;
      margin-bottom: 20rem;
      text-align: center;
-     border: 2px solid black;
  }
  .to h1{
      text-align: center;
@@ -153,6 +136,7 @@ header{
      text-align: center;
      margin-bottom: 2rem;
      padding: 5px;
+     flex-wrap: wrap;
  }
  .to #e{
      display: flex;
@@ -163,6 +147,7 @@ header{
      margin-bottom: 2rem;
      margin-top: 3rem;
      padding: 5px;
+     flex-wrap: wrap;
  }
  .to #f h1{
      font-family: 'Sofia Pro';
@@ -177,8 +162,8 @@ header{
  .tu{
     display: flex;
     position: relative;
-    justify-content: space-around;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FDC55E 73.18%);
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #e9c480 73.18%);
     margin-bottom: 10rem;
     margin-top: 10rem;
 }
@@ -203,64 +188,68 @@ header{
      position: relative;
      text-align: center;
      align-items: space-between;
+     margin-bottom: 10rem;
+ }
+ .footer #fou{
+    display: flex;
  }
  .but{
     align-items: center;
  }
- @media screen and (max-width:600px) {
+ @media screen and (max-width:480px) {
     .section #um{
+        display: none;
+    }
+     nav{
         display: none;
      }
      .main h1{
-        width: 100%;
-        height: auto;
-        font-weight: 450;
-        font-size: 27px;
-        line-height: 39px;
+        text-align: center;
+        font-weight: 500;
      }
      .main p{
-        width: 100%;
-        height: auto;
-        font-weight: 200;
-        font-size: 12px;
-        line-height: 16px;
-        letter-spacing: -0.01em;
-     }
-     .ti{
-        width: 100%;
-        height: auto;
         text-align: center;
+        justify-content: center;
      }
-     nav a{
-        display: none;
-     }
-     nav input{
-        display: none;
-     }
-     header{
-        justify-content: space-around;
+     #dois img{
+        margin-top: 4rem;
         align-items: center;
      }
-     .main input{
-        width: 17%;
-        height: 5%;
+     .ti #dois input{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        width: 440px;
+        height: 45px;
         border-radius: 50px;
-        border: none;
-        color: bisque;
     }
-    .ti #dois input{
-        width: 70%;
-        height: auto;
+    .ta #tres p{
+        max-width: 90%;
     }
-    .mobile{
-        display: none;
-    }
-    .ti #dois{
+    .te #a img{
         width: 100%;
         height: auto;
     }
-    .ti #dois img{
-        width: 50%;
-        height: auto;
+    .tu{
+        background-color:none;
     }
- }
+    .to #d{
+        display:none;
+    }
+    .tu{
+        background:none;
+        text-align:center;
+        flex-wrap: wrap;
+    }
+    .tu img{
+        width: 100%;
+    }
+    .tu #imagi{
+        width: 20%;
+    }
+    #fou{
+        padding:10%;
+    }
+    .footer #fo{
+        flex-wrap: wrap;
+    }
+}
