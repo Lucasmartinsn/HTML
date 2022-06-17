@@ -1,331 +1,266 @@
-Header{
+header{
     display: flex;
     align-items: center;
-    border: 1px solid black;
-    justify-content:space-around
-}
-body{
+    justify-content: space-around;
+    font-size: 19px;
     background: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
-}
-nav a{
-    margin-right: 2rem;
-    color: black;
-    text-decoration: none;
-}
-nav input{
-    background-color: red;
-
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 24px;
-    border-radius:50px;
-    border:none;
-    color: white
-    
-}
-#um  img{
+ }
+ nav a{
+     margin-right: 2rem;
+     color: #191919;
+     text-decoration: none;
+ }
+ nav input{
+     background-color: #f54748;
+     width: 162px;
+     height: 45px;
+     border-radius: 50px;
+     border: none;
+     color: bisque;
+ }
+ .ti #um{
+     display: flex;
+     position: relative;
+     float: right;
+ }
+ .main h1{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 58px;
+     line-height: 78px;
+ }
+ .main p{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 32px;
+     letter-spacing: -0.01em;    
+ }
+ .main input{
+     background-color: #f54748;
+     width: 162px;
+     height: 45px;
+     border-radius: 50px;
+     border: none;
+     color: bisque;
+ }
+.section {
+    margin-top: 3rem;
     display: flex;
-    position:relative;
-    left: 521px;
-    top: 169.5px;
-}
-#dois{
-    text-align:left 50px;
-    
-}
-#dois h1{
-    left: 800px;
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 58px;
-    line-height: 78px;
-    color: #2E2E2E;
-    text-align: left 40px;   
-}
-#dois p{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 32px;
-}
-#dois div{
-    margin-top: 2rem;
-    position: relative;
-    left: 10px;
-    border-radius:50px;
-    border:none;
-}
-#dois #div2 input{
-    margin-top: 2rem;
-    background-color: red;
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 24px;
-    border-radius:50px;
-    border:none;
-    color: white;
-    margin: 0 1rem;
-}
-#s2 h1{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 67px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:10rem;
+ }
+ .ti #dois input{
+     margin-bottom: 2rem;
+     margin-top: 2rem;
+     width: 500px;
+     height: 45px;
+     border-radius: 50px;
+     border: none;
+     text-align: center;
+     color: black;
+     background-color: rgb(223, 220, 220);
+ }
+ .ta #tres{
+     margin-top: 6rem;
+     text-align: center;
+ }
+ .diva p{
+   width:90%;
+ }
+ .lol{
+    background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
+    border-radius: 20px;
+    padding: 4rem;
+ }
+ .ta .quatro h2{
+     font-family: sans-serif;
+     color: red;
+     font-weight: 700px;
+ }
+ .mobile{
+    display: flex;
+ }
+ .ta .quatro{
+     display: flex;
+     flex-direction: row;
+     color:#000000;
+     width: 80%;
+     text-align: center;
+     margin-bottom: 2rem;
+     margin-top: 3rem;
+     padding: 4rem;
+ }
+
+ .te #a img{
+     display: flex;
+     position: static;
+     float: left;
+ }
+ .te #a{
+     margin-top: 12rem;
+     text-align: center;
+ }
+ .te #a p{
+     margin-bottom: 3rem;
+     text-align: center;
+ }
+ .te #b{
     text-align: center;
-    margin-top: 6rem;
-    
-}
-.ramadois h1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-bottom: 1px solid;
+    width: 500px;
+    height: 500px;
+ }
+ .te #c{
+    text-align: center;
+    display: flex;
+    position: relative;
+    right:10%;
+ }
+ .te #a input{
+     margin-top: 2rem;
+     margin-bottom: 20rem;
+     text-align: center;
+     border: 2px solid black;
+ }
+ .to h1{
+     text-align: center;
+ }
+ .to #inp input{
+     margin-top: 1rem;
+     text-align: center;
+     width: 98px;
+     height: 44px;
+     margin-bottom: 6rem;
+ }
+ .to #inp{
+     display: flex;
+     position: relative;
+     align-items: center;
+     width: 70%;
+ }
+ .to #d{
+     display: flex;
+     flex-direction: row;
+     color:#000000;
+     width: 80%;
+     text-align: center;
+     margin-bottom: 2rem;
+     padding: 5px;
+ }
+ .to #e{
+     display: flex;
+     flex-direction: row;
+     color:#000000;
+     width: 80%;
+     text-align: center;
+     margin-bottom: 2rem;
+     margin-top: 3rem;
+     padding: 5px;
+ }
+ .to #f h1{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 33px;
+     text-align: center;
+     text-transform: capitalize;
+     color: #F54748;
+ }
+ .tu{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FDC55E 73.18%);
+    margin-bottom: 10rem;
     margin-top: 10rem;
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 67px;
-    text-align: center;
 }
-.ramadois p{
-    margin-top: 1rem;
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center  
-}
-.ramadois .bo h2{
-    margin-top: 1rem;
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: center;
-    text-transform: capitalize;    
-    color: #F54748;
-}
-.ramadois .bo{
-    display: flex;
-    flex-direction: row;
-    color:#000000;
-    width: 80%;
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-    padding: 5px;
-}
-.ramadois .bo input{
-    margin-top: 2rem;
-    background-color: rgb(238, 85, 85);
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 24px;
-    border-radius:50px;
-    border:none;
-    color: white
-}
-#s3 img{
-    display: flex;
-    position: relative;
-    left: 1rem;
-    float: left;
-}
-#s3 #titu h1{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 129.9%;  
-    color: #000000;  
-    margin-top:15rem;
-    text-align: center
-}
-#s3 #titu p{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px; 
-    margin-top:1rem;
-    text-align: center;
-}
-#s3 #subt h3{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-    display:flex;
-    position: relative;
-    float:center;
-    align-items: center;   
-}
-#s3 #subt input{
-    margin-top: 2rem;
-    margin-bottom:20rem;
-    background-color: rgb(241, 160, 160);
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 24px;
-    border-radius:50px;
-    border:none;
-    color: white;
+ .footer h2{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 32px;
+     line-height: 44px;
+     color: #F54748;
+ }
+ .footer h3{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 24px;
+     color: #191919;
+ }
+ .footer #fo{
+     display: flex;
+     position: relative;
+     text-align: center;
+     align-items: space-between;
+ }
+ .but{
     align-items: center;
-    justify-content:center;
-}
-#s4 h1{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 67px;
-    text-align: center;
-    text-transform: capitalize; 
-}
-#s4 .menu input {
-    margin-top: 2rem;
-    margin-bottom: 6rem;
-    background-color: rgb(238, 85, 85);
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 24px;
-    border-radius:50px;
-    border:none;
-    color: white;
-    align-items: center;
-}
-
-.menu{
-    display: flex;
-    justify-content:center;
-}
-.menu input {
-    margin: 0 1rem;
-    padding: 5px 15px;
-}
-
-#s4 #s4div1{
-    display: flex;
-    flex-direction: row;
-    color:#000000;
-    width: 80%;
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-    padding: 5px;
-    margin-bottom: 2rem;
-}
-#s4 #s4div2{
-    display: flex;
-    flex-direction: row;
-    color:#000000;
-    width: 80%;
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-    padding: 5px;
-    margin-bottom: 2rem;
-}
-#s4 #s4div2 h2{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: center;
-    text-transform: capitalize;
-    color:red;
-} 
-#s4 #s4div2 p{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: center;
-}
-#s4 #s4div1 input{
-    background-color: red;
-
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 24px;
-    border-radius:50px;
-    border:none;
-    color: white 
-}
-#s4 #s4div2 input{
-    background-color: red;
-
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 24px;
-    border-radius:50px;
-    border:none;
-    color: white 
-}
-#s5 #imagem img{
-    margin-top: 3rem;
-    display: flex;
-    position:relative;
-    left: 521px;
-}
-#s5  #text h1{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 67px;
-}
-#s5 #text p{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-}
-#s5 div li img{
-    display:flex;
-    position:relative;
-    margin-bottom: 45rem;
-    margin-top:2rem;
-}
-footer{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    color:#000000;
-    width: 80%;
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-    padding: 5px;
-    margin-bottom: 2rem;
-}
-footer h1{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: center;
-    text-transform: capitalize;
-    color:red;
-}
+ }
+ @media screen and (max-width:600px) {
+    .section #um{
+        display: none;
+     }
+     .main h1{
+        width: 100%;
+        height: auto;
+        font-weight: 450;
+        font-size: 27px;
+        line-height: 39px;
+     }
+     .main p{
+        width: 100%;
+        height: auto;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+     }
+     .ti{
+        width: 100%;
+        height: auto;
+        text-align: center;
+     }
+     nav a{
+        display: none;
+     }
+     nav input{
+        display: none;
+     }
+     header{
+        justify-content: space-around;
+        align-items: center;
+     }
+     .main input{
+        width: 17%;
+        height: 5%;
+        border-radius: 50px;
+        border: none;
+        color: bisque;
+    }
+    .ti #dois input{
+        width: 70%;
+        height: auto;
+    }
+    .mobile{
+        display: none;
+    }
+    .ti #dois{
+        width: 100%;
+        height: auto;
+    }
+    .ti #dois img{
+        width: 50%;
+        height: auto;
+    }
+ }
