@@ -162,11 +162,16 @@ header{
  .tu{
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-around;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #e9c480 73.18%);
     margin-bottom: 10rem;
     margin-top: 10rem;
 }
+.tu #bet{
+    display: flex;
+    display: none;
+}
+
  .footer h2{
      font-family: 'Sofia Pro';
      font-style: normal;
@@ -196,7 +201,11 @@ header{
  .but{
     align-items: center;
  }
- @media screen and (max-width:480px) {
+ .menu{
+    display: flex;
+    display: none;
+ }
+ @media screen and (max-width:600px) {
     .section #um{
         display: none;
     }
@@ -251,5 +260,15 @@ header{
     }
     .footer #fo{
         flex-wrap: wrap;
+    }
+    .chef{
+        flex-wrap: wrap;
+    }
+    .menu{
+        display: flex;
+        float: right 10%;
+    }
+    .to #inp li:nth-child(n+4){
+        display: none;
     }
 }
